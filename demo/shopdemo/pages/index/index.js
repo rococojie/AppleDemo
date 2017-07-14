@@ -3,20 +3,17 @@
 var app = getApp()
 Page({
   data: {
+    //位置
+    //city:''，
     // 轮播
     images: [
-      '../../image/listImg.png',
-      '../../image/listImg.png',
-      '../../image/listImg.png',
-      '../../image/listImg.png',
-      '../../image/listImg.png',
-      '../../image/listImg.png',
-      '../../image/listImg.png'
+      '../../image/homepage1.jpg',
+      //'../../image/homepage2.jpg',
     ],
     indicatorDots: true,
     vertical: false,
     autoplay: true,
-    interval: 2800,
+    interval: 2500,
     duration: 1200,
     // nav
     navs: [
