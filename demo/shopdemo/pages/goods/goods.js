@@ -18,12 +18,41 @@ Page({
     vertical: false,
     autoplay: true,
     interval: 2500,
-    duration: 1200
+    duration: 1200,
+    goods:{
+      desc:"富士山精致无敌大仙桃，吃了代码写的好",
+      price: 200,
+      buy_count: 1
+    },
+    adress_list: [
+      { address_id: 0, value: '华为一号门' },
+      { address_id: 1, value: '华为二号门', checked: 'true' },
+      { address_id: 2, value: '华为三号门' }
+    ]
   },
 
   swiperchange: function (e) {
     //FIXME: 当前页码
     //console.log(e.detail.current)
+  },
+
+  decBuyCount: function (e) {
+    if (this.data.goods.buy_count - 1 >= 0)
+    {
+      this.setData({
+        "goods.buy_count": this.data.goods.buy_count - 1
+      })
+    }
+  },
+
+  incBuyCount: function (e) {
+    this.setData({
+      "goods.buy_count": this.data.goods.buy_count + 1
+    })
+  },
+
+  radioChange: function (e) {
+    console.log('radio发生change事件，携带value值为：', e.detail.value)
   },
 
   /**

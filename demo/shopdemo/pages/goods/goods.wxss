@@ -83,7 +83,7 @@ view.text:before {
   width: 2px;
   height: 100%;
   background-color: #09bb07;
-}
+}decbtn
 
 .line_y {
   width: 3px;
@@ -103,12 +103,14 @@ view.text text {
   height: 126px;
 }
 
-.small_image{
-  width:100px;
-  height:100px;
-  float:left;
-}
-
-.desc{
+.count_btn{
+  width:20px;
+  height:30px;
   display: inline;
+}
+.buy_count{
+  display: inline;
+  width:60px;
+  height:30px;
+  border: solid
 }
