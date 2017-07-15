@@ -1,2 +1,14 @@
-<!--goods.wxml-->
-<text>goods.wxml</text>
+
+<!--index.wxml-->
+<view class="container">
+  <!--轮播页面-->
+  <view class="section section_gap swiper_box">
+    <swiper class="swiper" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="swiperchange">
+      <block wx:for-items="{{images}}">
+        <swiper-item catchtap="gos">
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>

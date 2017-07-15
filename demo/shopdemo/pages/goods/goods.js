@@ -5,7 +5,25 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    images: [
+      //'../../image/homepage3.jpg',
+      '../../image/homepage4.jpg',
+      '../../image/homepage5.jpg',
+      '../../image/homepage6.jpg',
+      //'../../image/homepage7.jpg',
+      '../../image/homepage8.jpg',
+      '../../image/homepage9.jpg'
+    ],
+    indicatorDots: true,
+    vertical: false,
+    autoplay: true,
+    interval: 2500,
+    duration: 1200
+  },
+
+  swiperchange: function (e) {
+    //FIXME: 当前页码
+    //console.log(e.detail.current)
   },
 
   /**
