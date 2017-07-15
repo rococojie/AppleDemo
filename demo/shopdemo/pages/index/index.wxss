@@ -102,3 +102,13 @@ view.text text {
   margin-bottom: 7px;
   height: 126px;
 }
+
+.small_image{
+  width:100px;
+  height:100px;
+  float:left;
+}
+
+.desc{
+  display: inline;
+}

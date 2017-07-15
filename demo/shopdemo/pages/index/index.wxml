@@ -1,6 +1,7 @@
 
 <!--index.wxml-->
 <view class="container">
+  <!--轮播页面-->
   <view class="section section_gap swiper_box">
     <swiper class="swiper" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="swiperchange">
       <block wx:for-items="{{images}}">
@@ -10,6 +11,8 @@
       </block>
     </swiper>
   </view>
+
+  <!--内部导航-->
   <view class="section index-nav">
     <block wx:for-items="{{navs}}">
       <view class="l-c-c" catchtap="go" data-type="{{item.text}}">
@@ -19,13 +22,16 @@
       </view>
     </block>
   </view>
-    <!--<view class="text">
-        <view class="line_y"></view>
-        <text>精品推荐</text>
-    </view>-->
+
+  <!--商品列表-->
   <block wx:for-items="{{items}}">
-    <view class="item" catchtap="gos">
-      <image src="{{item.image}}" class="slide-image" />
+    <view class="item">
+      <image src="{{item.image}}" bindtap="buyGoods" class="small_image" />
+      <view class="desc">{{item.desc}}</view>
+      <text class="price">{{item.price}}元</text>
+      <progress class="buy_process" stroke-width="8" percent="20" show-info />
+      <text class="buy_count">已购:{{item.buy_count}}人</text>
+      <button type="primary" class="buy_goods" bindtap="buyGoods">立即参团</button>
     </view>
   </block>
 </view>
