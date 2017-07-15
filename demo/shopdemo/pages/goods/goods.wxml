@@ -11,4 +11,45 @@
       </block>
     </swiper>
   </view>
+
+  <!--描述信息-->
+  <view class="view_descs">
+    <view class="desc">{{goods.desc}}</view>
+    <view class="price">{{goods.price}}元</view>
+  </view>
+
+  <view class="view_counts">
+    <view class="total_count">
+      <text>总量</text>
+      <text>{{goods.total_count}}</text>
+      </view>
+    <view class="remain_count">
+      <text>剩余</text>
+      <text>{{goods.remain_count}}</text>
+      </view>
+
+    <view class="goods_count">
+      <text>数量</text>
+      <button type="primary" class="count_btn" bindtap="decBuyCount">➖</button>
+      <!--<input type="text" class="count_input" value="1"/>-->
+      <text class="buy_count"> {{goods.buy_count}} </text>
+      <button type="primary" class="count_btn" bindtap="incBuyCount">➕</button>
+    </view>
+  </view>
+
+  <view class="view_address">
+    <text>送货地址</text>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label class="radio" wx:for="{{adress_list}}">
+        <radio value="{{item.address_id}}" checked="{{item.checked}}"/>{{item.value}}
+      </label>
+    </radio-group>
+  </view>
+
+
+  <view class="view_bottom_bar">
+    <button type="primary" class="count_btn" bindtap="callMe">联系卖家</button>
+    <button type="primary" class="count_btn" bindtap="buyCount">立即购买</button>
+  </view>
+
 </view>
