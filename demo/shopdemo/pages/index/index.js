@@ -6,9 +6,8 @@ Page({
     //位置
     // 轮播
     images: [
-     //'../../image/homepage3.jpg',
-     // '../../image/homepage4.jpg',
-      //'../../image/homepage5.jpg',
+      '../../image/homepage4.jpg',
+      '../../image/homepage5.jpg',
       '../../image/homepage6.jpg',
       //'../../image/homepage7.jpg',
       '../../image/homepage8.jpg',
@@ -32,6 +31,7 @@ Page({
         text: '瓜果市场'
       }, 
     ],
+    
     // item
     items: [{ 
       image: '../../image/peach.png',
@@ -57,23 +57,8 @@ Page({
         remain_count: 10,
         percent: 20,
         buy_count: 30
-    }, {
-      image: '../../image/0.jpg',
-      desc: "富士山苹果，一斤起购",
-      price: 10,
-      total_count: 80,
-      remain_count: 10,
-      percent: 20,
-      buy_count: 30
-      }, {
-        image: '../../image/0.jpg',
-        desc: "富士山苹果，一斤起购",
-        price: 10,
-        total_count: 80,
-        remain_count: 10,
-        percent: 20,
-        buy_count: 30
-      }]
+    },
+    ]
   },
 
   //事件处理函数

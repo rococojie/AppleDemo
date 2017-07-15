@@ -133,3 +133,7 @@ view.text text {
   font-size:14px;
   display:block;
 }
+
+.buy_process {
+font-size:14px;
+}

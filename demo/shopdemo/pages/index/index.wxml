@@ -29,7 +29,7 @@
       <image src="{{item.image}}" bindtap="buyGoods" class="small_image" />
       <view class="desc">{{item.desc}}</view>
       <text class="price">{{item.price}}元</text>
-      <progress class="buy_process" stroke-width="8" percent="20" show-info />
+      <progress class="buy_process" stroke-width="6" percent="20" show-info />
       <text class="buy_count">已购:{{item.buy_count}}人</text>
       <button type="primary" class="buy_goods" bindtap="buyGoods" >立即参团</button>
     </view>
