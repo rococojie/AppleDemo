@@ -4,11 +4,15 @@ var app = getApp()
 Page({
   data: {
     //位置
-    //city:''，
     // 轮播
     images: [
-      '../../image/homepage1.jpg',
-      //'../../image/homepage2.jpg',
+     //'../../image/homepage3.jpg',
+      '../../image/homepage4.jpg',
+      '../../image/homepage5.jpg',
+      '../../image/homepage6.jpg',
+      //'../../image/homepage7.jpg',
+      '../../image/homepage8.jpg',
+      '../../image/homepage9.jpg',
     ],
     indicatorDots: true,
     vertical: false,
@@ -18,18 +22,23 @@ Page({
     // nav
     navs: [
       {
-        image: '../../image/favorable.jpg',
+        //image: '../../image/favorable.jpg',
+        image: '../../image/tea.jpg',
         text: '下午茶'
       }, {
-        image: '../../image/new.jpg',
+       // image: '../../image/new.jpg',
+       image: '../../image/gift.jpg',
         text: '礼物集'
       }, {
-        image: '../../image/choose.jpg',
+       // image: '../../image/choose.jpg',
+       // image: '../../image/fruit2.jpg',
+        image: '../../image/fruit.png',
         text: '瓜果市场'
       }, 
     ],
     // item
-    items: [/*
+    items: [
+      /*
       { image: //'https://hamlet.b0.upaiyun.com/1609/22111/fe8765fa7f2f48cd87760c10ddd20ae6.jpg' },
       { image: //'https://hamlet.b0.upaiyun.com/1609/22111/84439174cad04497beda3a076663beb4.jpg' },
       { image: //'https://hamlet.b0.upaiyun.com/1609/22111/1987d8eb8b1748368b7f2382332c9718.jpg' },
