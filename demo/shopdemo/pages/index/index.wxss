@@ -13,7 +13,8 @@ view.section {
 
 .swiper_box {
   /*width: 100%;*/
-  height: 187.5px;
+ /* height: 187.5px;*/
+    height:160.5px;
 }
 
 swiper.swiper {
@@ -35,7 +36,8 @@ swiper.swiper {
 /*分类*/
 
 .index-nav {
-  height: 65px;
+  /*height: 65px;*/
+  height:80px;
   /*background: red;*/
   display: flex;
   flex-direction: row;
@@ -54,12 +56,12 @@ swiper.swiper {
 }
 
 .index-nav image {
-  width: 38px;
-  height: 38px;
+  width: 36px;
+  height: 36px;
 }
 
 .index-nav text {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /*列表*/

@@ -4,47 +4,35 @@ Page({
     array: [{
       message: '精品推荐',
     }, {
-      message: '我们的下午茶'
+      message: '下午茶',
     }, {
-      message: '个护化妆'
+      message: '礼物精选',
     }, {
-      message: '家用电器'
+      message: '精品瓜果',
     }, {
-      message: '电脑办公'
-    }, {
-      message: '手机数码'
-    }, {
-      message: '母婴童装'
-    }, {
-      message: '图书音像'
-    }, {
-      message: '家居家纺'
-    }, {
-      message: '家居生活'
-    }],
+      message: '零食小吃',
+    }, 
+    ],
     childCategory:[{
         title:'推荐分类',
         array:[{
-          name:'12.19超级品牌日'
+          name:'父亲节团购日'
         },{
-          name:'冬季小家电专场'
+          name:'夏季消暑团购季'
         },{
-          name:'令全满减'
-        }]
+          name:'开店同庆满减精选'
+        },{
+          name: '七夕礼物精选'
+        }
+        ]
     },{
         title:'热门分类',
         array:[{
-          name:'手机'
+          name:'本地水果'
         },{
-          name:'笔记本'
+          name:'进口水果'
         },{
-          name:'空调'
-        },{
-          name:'收纳用品'
-        },{
-          name:'炒锅'
-        },{
-          name:'床品套件'
+          name:'特色小零食'
         }]
     }]
   },
@@ -77,26 +65,26 @@ Page({
         childCategory: [{
           title:'热卖品牌',
           array:[{
-            name:'时尚羽绒'
+            name:''
           },{
-            name:'轻薄羽绒'
+            name:''
           },{
-            name:'中长款羽绒'
+            name:''
           },{
-            name:'针织裙'
+            name:''
           },{
-            name:'毛呢大衣'
+            name:''
           }]
         },{
-          title:'裙装',
+          title:'热卖商品',
           array:[{
-            name:'秋冬连衣裙'
+            name:''
           },{
-            name:'长袖连衣裙'
+            name:''
           },{
-            name:'针织连衣裙'
+            name:''
           },{
-            name:'毛呢连衣裙'
+            name:''
           }]
         }]
       })
@@ -105,26 +93,26 @@ Page({
            childCategory:[{
             title:'推荐分类',
             array:[{
-              name:'12.19超级品牌日'
+              name:''
             },{
-              name:'冬季小家电专场'
+              name:''
             },{
-              name:'令全满减'
+              name:''
             }]
         },{
             title:'热门分类',
             array:[{
-              name:'手机'
+              name:''
             },{
-              name:'笔记本'
+              name:''
             },{
-              name:'空调'
+              name:''
             },{
-              name:'收纳用品'
+              name:''
             },{
-              name:'炒锅'
+              name:''
             },{
-              name:'床品套件'
+              name:''
             }]
       }]
         })

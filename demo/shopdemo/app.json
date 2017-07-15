@@ -32,7 +32,7 @@
         "pagePath": "pages/category/category",
         "iconPath": "image/index.png",
         "selectedIconPath": "image/selectIndex.png",
-        "text": "团购"
+        "text": "分类团购"
       },
       {
         "pagePath": "pages/cart/cart",
