@@ -1,4 +1,4 @@
-// index.js
+// goods.js
 Page({
 
   /**

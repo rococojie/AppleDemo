@@ -6,7 +6,7 @@
     "pages/user/register",
     "pages/user/address",
     "pages/publish/publish",
-    "pages/goods/index"
+    "pages/goods/goods"
   ],
   "window": {
     "navigationBarBackgroundColor": "#06b3ad",

@@ -90,7 +90,7 @@ Page({
   },
   buyGoods : function(){
     wx.navigateTo({
-      url: '../goods/index'
+      url: '../goods/goods'
     })
   }
 })
