@@ -8,9 +8,6 @@ Page({
       '../../image/listImg.png',
       '../../image/listImg.png',
       '../../image/listImg.png',
-      '../../image/listImg.png',
-      '../../image/listImg.png',
-      '../../image/listImg.png',
       '../../image/listImg.png'
     ],
     indicatorDots: true,
@@ -28,20 +25,27 @@ Page({
         text: '礼物集'
       }, {
         image: '../../image/choose.jpg',
-        text: '瓜果市场'
+        text: '水果盘'
       }, 
     ],
     // item
-    items: [/*
-      { image: //'https://hamlet.b0.upaiyun.com/1609/22111/fe8765fa7f2f48cd87760c10ddd20ae6.jpg' },
-      { image: //'https://hamlet.b0.upaiyun.com/1609/22111/84439174cad04497beda3a076663beb4.jpg' },
-      { image: //'https://hamlet.b0.upaiyun.com/1609/22111/1987d8eb8b1748368b7f2382332c9718.jpg' },
-      { image: //'https://hamlet.b0.upaiyun.com/1609/22111/fe8765fa7f2f48cd87760c10ddd20ae6.jpg' },
-      { image: //'https://hamlet.b0.upaiyun.com/1609/22111/fe8765fa7f2f48cd87760c10ddd20ae6.jpg' },
-      { image: //'https://hamlet.b0.upaiyun.com/1609/22111/fe8765fa7f2f48cd87760c10ddd20ae6.jpg' },
-      { image: //'https://hamlet.b0.upaiyun.com/1609/22111/fe8765fa7f2f48cd87760c10ddd20ae6.jpg' },
-      { image: //'https://hamlet.b0.upaiyun.com/1609/22111/fe8765fa7f2f48cd87760c10ddd20ae6.jpg' } */
-    ]
+    items: [{ 
+      image: '../../image/0.jpg',
+      desc: "新鲜上市的龙泉驿蜜桃",
+      price: 200,
+      total_count: 60,
+      remain_count: 50,
+      percent:80,
+      buy_count: 100
+    },{ 
+      image: '../../image/0.jpg',
+      desc: "富士山苹果，一斤起购",
+      price: 10,
+      total_count: 80,
+      remain_count: 10,
+      percent:20,
+      buy_count: 30
+    }]
    
   },
 
@@ -69,7 +73,8 @@ Page({
   },
   go: function (event) {
     wx.navigateTo({
-      url: '../list/index?type=' + event.currentTarget.dataset.type
+      url: '../category/index'
+      //url: '../list/index?type=' + event.currentTarget.dataset.type
     })
   },
   gos: function (event) {
@@ -77,7 +82,11 @@ Page({
     // console.log("路径："+url);
     wx.navigateTo({
       url: '../template/index?type=' + event.currentTarget.dataset.type
-      
+    })
+  },
+  buyGoods : function(){
+    wx.navigateTo({
+      url: '../goods/index'
     })
   }
 })
