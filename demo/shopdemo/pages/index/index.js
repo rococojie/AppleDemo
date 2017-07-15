@@ -7,8 +7,8 @@ Page({
     // 轮播
     images: [
      //'../../image/homepage3.jpg',
-      '../../image/homepage4.jpg',
-      '../../image/homepage5.jpg',
+     // '../../image/homepage4.jpg',
+      //'../../image/homepage5.jpg',
       '../../image/homepage6.jpg',
       //'../../image/homepage7.jpg',
       '../../image/homepage8.jpg',
@@ -34,7 +34,7 @@ Page({
     ],
     // item
     items: [{ 
-      image: '../../image/0.jpg',
+      image: '../../image/peach.png',
       desc: "新鲜上市的龙泉驿蜜桃",
       price: 200,
       total_count: 60,
@@ -42,14 +42,38 @@ Page({
       percent:80,
       buy_count: 100
     },{ 
-      image: '../../image/0.jpg',
+      image: '../../image/Apple.jpg',
       desc: "富士山苹果，一斤起购",
       price: 10,
       total_count: 80,
       remain_count: 10,
       percent:20,
       buy_count: 30
-    }]
+      }, {
+        image: '../../image/pear.jpg',
+        desc: "本地甜梨，两斤起购",
+        price: 10,
+        total_count: 80,
+        remain_count: 10,
+        percent: 20,
+        buy_count: 30
+    }, {
+      image: '../../image/0.jpg',
+      desc: "富士山苹果，一斤起购",
+      price: 10,
+      total_count: 80,
+      remain_count: 10,
+      percent: 20,
+      buy_count: 30
+      }, {
+        image: '../../image/0.jpg',
+        desc: "富士山苹果，一斤起购",
+        price: 10,
+        total_count: 80,
+        remain_count: 10,
+        percent: 20,
+        buy_count: 30
+      }]
   },
 
   //事件处理函数
