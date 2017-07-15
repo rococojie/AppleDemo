@@ -33,7 +33,8 @@ Page({
     ],
     
     // item
-    items: [{ 
+    items: [
+      { 
       image: '../../image/peach.png',
       desc: "新鲜上市的龙泉驿蜜桃",
       price: 200,
@@ -50,8 +51,16 @@ Page({
       percent:20,
       buy_count: 30
       }, {
+        image: '../../image/cherry.jpg',
+        desc: "汶川车厘子，两斤起购",
+        price: 10,
+        total_count: 80,
+        remain_count: 10,
+        percent: 20,
+        buy_count: 30
+      }, {
         image: '../../image/pear.jpg',
-        desc: "本地甜梨，两斤起购",
+        desc: "清新甜梨，两斤起购",
         price: 10,
         total_count: 80,
         remain_count: 10,

@@ -7,9 +7,9 @@ Page({
   data: {
     images: [
       //'../../image/homepage3.jpg',
-      '../../image/homepage4.jpg',
-      '../../image/homepage5.jpg',
-      '../../image/homepage6.jpg',
+      //'../../image/homepage4.jpg',
+      //'../../image/homepage5.jpg',
+      //'../../image/homepage6.jpg',
       //'../../image/homepage7.jpg',
       '../../image/homepage8.jpg',
       '../../image/homepage9.jpg'
@@ -20,7 +20,7 @@ Page({
     interval: 2500,
     duration: 1200,
     goods:{
-      desc:"富士山精致无敌大仙桃，吃了代码写的好",
+      desc:"精致无敌大蜜桃，甜香无比，吃了它，心情好了，代码写的更牛了！！！",
       price: 200,
       buy_count: 1
     },
@@ -30,6 +30,10 @@ Page({
       { address_id: 2, value: '华为三号门' }
     ]
   },
+//comment:{
+//  desc:"商品介绍",
+//},
+
 
   swiperchange: function (e) {
     //FIXME: 当前页码
